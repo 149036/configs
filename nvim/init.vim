@@ -1,3 +1,4 @@
+### plugins
 call plug#begin('~/local/share/nvim/plugged')
 Plug 'Lambdalisue/fern.vim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
@@ -10,16 +11,21 @@ Plug 'junegunn/fzf', {'dir': '~/.fzf_bin', 'do': './install --all'}
 call plug#end()
 
 
+### set
+
 set number
+set number relativenumber
 set autoindent
-set tabstop=2
-set shiftwidth=2
-set expandtab
+set tabstop=4
+set shiftwidth=4
+set noexpandtab
 set splitright
 set hls
 set clipboard+=unnamedplus
+set nowrap
+set title
 
-
+## set listchars=tab:>-,trail:-,extends:>,precedes:<,nbsp:%
 
 
 
