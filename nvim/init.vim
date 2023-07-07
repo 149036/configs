@@ -1,4 +1,4 @@
-### plugins
+"" plugins
 call plug#begin('~/local/share/nvim/plugged')
 Plug 'Lambdalisue/fern.vim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
@@ -11,7 +11,7 @@ Plug 'junegunn/fzf', {'dir': '~/.fzf_bin', 'do': './install --all'}
 call plug#end()
 
 
-### set
+"" set
 
 set number
 set number relativenumber
@@ -25,11 +25,11 @@ set clipboard+=unnamedplus
 set nowrap
 set title
 
-## set listchars=tab:>-,trail:-,extends:>,precedes:<,nbsp:%
+"" set listchars=tab:>-,trail:-,extends:>,precedes:<,nbsp:%
 
 
 
-" map prefix
+"" map prefix
 let g:mapleader = "\<Space>"
 nnoremap <Leader>    <Nop>
 xnoremap <Leader>    <Nop>
