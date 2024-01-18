@@ -1,4 +1,4 @@
 # .config
 
-nvim
+nvim  
   :PlugInstall
