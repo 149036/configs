@@ -13,6 +13,9 @@ yes | yay -S neovim-nightly-bin \
     go\
     ghq\
     peco\
+    xxd\
+    nasm\
+    peda
 
 
 mkdir ~/repo
