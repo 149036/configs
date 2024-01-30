@@ -3,6 +3,7 @@
 yes | sudo pacman -S yay
 yes | yay -S neovim-nightly-bin \
     fzf\
+    peco\
     zsh\
     starship\
     docker\
