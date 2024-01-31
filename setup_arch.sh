@@ -14,28 +14,14 @@ yes | yay -S neovim-nightly-bin \
     go\
     ghq\
     peco\
-    xxd\
-    nasm\
-    peda
+    # xxd\
+    # nasm\
+    # peda\
 
 
 mkdir ~/repo
 git config --global ghq.root '~/repo'
 ghq get https://github.com/marlonrichert/zsh-autocomplete.git
-
-
-
-
-
-
-
-## font HackGen Nerd Fonts Console
-wget https://github.com/yuru7/HackGen/releases/download/v2.9.0/HackGen_NF_v2.9.0.zip
-unzip HackGen_NF_v2.9.0.zip
-cp -r HackGen_NF_v2.9.0 ~/.local/share/fonts
-fc-cache -vf
-rm -rf HackGen_NF_v2.9.0 HackGen_NF_v2.9.0.zip
-
 
 
 sudo systemctl enable docker\
