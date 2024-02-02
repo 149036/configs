@@ -14,9 +14,12 @@ yes | yay -S neovim-nightly-bin \
     go\
     ghq\
     peco\
-    # xxd\
-    # nasm\
-    # peda\
+    xxd\
+    nasm\
+    peda\
+    valgrind\
+    massif-visualizer
+    
 
 
 mkdir ~/repo
