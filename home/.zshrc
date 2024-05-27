@@ -7,6 +7,10 @@ alias ll="ls -l"
 alias la="ls -la"
 alias vim="nvim"
 
+# ctrl + ←, → 
+bindkey ";5C" forward-word
+bindkey ";5D" backward-word
+
 
 # peco settings
 ## 過去に実行したコマンドを選択。ctrl-rにバインド。
