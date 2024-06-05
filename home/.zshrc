@@ -55,6 +55,7 @@ function peco-repo () {
 zle -N peco-repo
 bindkey '^]' peco-repo
 
+export PATH="$HOME/.local/bin:$PATH"
 
 ### 必ず末尾にかく starship
 eval "$(starship init zsh)"
