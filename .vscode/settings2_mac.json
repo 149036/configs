@@ -1,0 +1,319 @@
+{
+  // "workbench.colorTheme": "Atom One Dark",
+  // "editor.fontFamily": "Hack Nerd Font Regular",
+  // "editor.fontFamily": "JetBrains Mono NL ExtraLight",
+  "workbench.settings.useSplitJSON": true,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.tabSize": 4,
+  "editor.fontSize": 12,
+  "editor.letterSpacing": -0.3,
+  "editor.lineHeight": 16,
+  "editor.formatOnSave": false,
+  "editor.insertSpaces": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderWhitespace": "boundary",
+  "editor.minimap.showSlider": "always",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.inlayHints.enabled": "offUnlessPressed", // ctrl + alt
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "workbench.editor.tabSizing": "shrink",
+  "window.openFilesInNewWindow": "off",
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "onFocusChange",
+  "editor.suggest.insertMode": "insert",
+  "editor.renderLineHighlight": "all",
+  "editor.bracketPairColorization.enabled": true,
+  "files.eol": "\n",
+  // "files.insertFinalNewline": true,
+  "explorer.confirmDragAndDrop": false,
+  "git.confirmSync": false,
+  "git.suggestSmartCommit": false,
+  "code-runner.runInTerminal": true,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.rightClickBehavior": "paste",
+  "explorer.compactFolders": false,
+  "tabnine.experimentalAutoImports": true,
+  "editor.minimap.enabled": false,
+  "window.openFoldersInNewWindow": "on",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  //色
+  "workbench.colorCustomizations": {
+    //https://qiita.com/deren2525/items/6bc099ae8c05e3076055
+    // https://code.visualstudio.com/api/references/theme-color
+    "tab.activeBackground": "#848484", // アクティブタブの背景色
+    "tab.activeForeground": "#eee", // アクティブタブの文字色
+    "tab.inactiveForeground": "#c2c2c2", // アクティブではないタブの文字色
+    "tab.hoverBackground": "#6a6a6a", // タブのホバー時の背景色
+    "tab.hoverForeground": "#eee", // タブのホバー時の文字色
+    "list.inactiveSelectionBackground": "#848484", // エクスプローラーの選択中の背景色
+    "list.inactiveSelectionForeground": "#eee", // エクスプローラーの選択中の文字色
+    "list.warningForeground": "#faff5e", // エクスプローラーのWarningの文字色
+    "gitDecoration.modifiedResourceForeground": "#a1deff", // Gitの差分がある時の文字色
+    //https://qiita.com/vrn/items/8e3d8f5de828adbec827
+    //https://qiita.com/youtoy/items/285b2c2c884fb8af76ca
+    "editor.selectionBackground": "#1cb9be98",
+    "editor.selectionHighlightBackground": "#4a815659",
+    "editorCursor.foreground": "#ff0095",
+    "editor.lineHighlightBackground": "#22c5531f",
+    "editor.background": "#0e1a0a",
+    // "editor.background": "#000000", // & "glassit.alpha": 220,
+    "activityBar.background": "#000000",
+    "terminal.background": "#000000",
+    "scrollbarSlider.background": "#ffffff8c",
+    "editor.guides.indentation": true,
+    "sideBar.background": "#09060f85",
+    "editorIndentGuide.background1": "#FFFF6460",
+    "editorIndentGuide.background2": "#7EFF7e60",
+    "editorIndentGuide.background3": "#FF7EFF60",
+    "editorIndentGuide.background4": "#4EEBEB60",
+    "editorIndentGuide.activeBackground1": "#fff",
+    "editorIndentGuide.activeBackground2": "#fff",
+    "editorIndentGuide.activeBackground3": "#fff",
+    "editorIndentGuide.activeBackground4": "#fff"
+  },
+  "remote.SSH.remotePlatform": {},
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+  // "vscode-neovim.useWSL": true,
+  "vscode-neovim.neovimInitVimPaths.linux": "/home/p/.config/nvim/init.vim",
+  /////////////////////////////////////////////////////////////////
+  "[dart]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.suggest.insertMode": "insert",
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "never"
+    }
+  },
+  "[erlang]": {
+    "editor.defaultFormatter": "sile.efmt",
+  },
+  "erlls.erlLibs": "C:\\Program Files\\Erlang OTP\\lib:/usr/lib/erlang/lib/:_checkouts:_build/default/lib:${workspaceFolder}",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "haskell.manageHLS": "GHCup",
+  "[phoenix-hex]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  "emmet.includeLanguages": {
+    "html-eex": "html"
+  },
+  /////////////////////////////////////////////////////////////////
+  // python
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnType": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.insertSpaces": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    },
+  },
+  "python.analysis.typeCheckingMode": "basic",
+  /////////////////////////////////////////////////////////////////
+  // go
+  "[go]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "never"
+    }
+  },
+  /////////////////////////////////////////////////////////////////
+  // json
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  /////////////////////////////////////////////////////////////////
+  // css
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  /////////////////////////////////////////////////////////////////
+  // html
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  /////////////////////////////////////////////////////////////////
+  // javascript
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  /////////////////////////////////////////////////////////////////
+  // typescript
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  /////////////////////////////////////////////////////////////////
+  // docker
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "cmake.showOptionsMovedNotification": false,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  /////////////////////////////////////////////////////////////////
+  // yaml
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  /////////////////////////////////////////////////////////////////
+  // rust
+  "rust-analyzer.check.command": "clippy",
+  /////////////////////////////////////////////////////////////////
+  // markdown
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.trimTrailingWhitespace": false
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.env.linux": {},
+  /////////////////////////////////////////////////////////////////
+  // xml
+  "[xml]": {
+    "editor.defaultFormatter": "fabianlauer.vs-code-xml-format"
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.linkedEditing": true,
+  "editor.rulers": [
+    {
+      "column": 80,
+      "color": "#00FF0010"
+    },
+    {
+      "column": 100,
+      "color": "#BDB76B15"
+    },
+    {
+      "column": 120,
+      "color": "#FA807219"
+    }
+  ],
+  "editor.unicodeHighlight.includeComments": true,
+  "emmet.variables": {
+    "lang": "ja"
+  },
+  "workbench.editor.revealIfOpen": true,
+  "workbench.tree.indent": 20,
+  "[bat]": {
+    "files.eol": "\r\n"
+  },
+  "terminal.integrated.tabs.hideCondition": "never",
+  "terminal.integrated.enablePersistentSessions": false,
+  "cSpell.diagnosticLevel": "Hint",
+  "trailing-spaces.includeEmptyLines": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "remote.autoForwardPortsSource": "hybrid",
+  "terminal.integrated.automationProfile.windows": {
+    "path": "cmd"
+  },
+  "trailing-spaces.backgroundColor": "rgba(255,0,0,0.1)",
+  /////////////////////////////////////////////////////////////////
+  // elixir
+  "[elixir]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  "[phoenix-heex]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  /////////////////////////////////////////////////////////////////
+  "terminal.integrated.env.windows": {},
+  //s
+  "dart.flutterSdkPath": "/usr/local/flutter",
+  //
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path-windows": "C:\\Users\\user01\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+    "vscode-kubernetes.kubectl-path-windows": "C:\\Users\\user01\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe",
+    "vscode-kubernetes.minikube-path-windows": "C:\\Users\\user01\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+  },
+  "console-ninja.featureSet": "Community",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "env": {
+        "JAVA_HOME": "/home/user01/.vscode-server/data/User/globalStorage/pleiades.java-extension-pack-jdk/java/21"
+      },
+      "args": [
+        "--rcfile",
+        "/home/user01/.vscode-server/data/User/globalStorage/pleiades.java-extension-pack-jdk/.bashrc"
+      ]
+    },
+  },
+  /////////////////////////////////////////////////////////////////
+  "background.useFront": false,
+  "background.enabled": true,
+  "background.customImages": [
+    // "https://gifdb.com/images/high/programming-coding-zero-one-886cxycpxlv9ue5k.webp",
+    // "https://gifdb.com/images/high/programming-stick-figure-going-crazy-on-fire-j6ii4pju9xdtnsbr.webp",
+    // "https://steamuserimages-a.akamaihd.net/ugc/767223584088150568/AFBD1001F83782B5CEF5192E3661ACDA82C9255C/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+    // "https://gifdb.com/images/high/programming-crazy-hard-typing-animation-dz0h9gpwght2nl4t.webp",
+    // "https://media.tenor.com/TyhWL7gJwPgAAAAi/peppo-dance.gif",
+    // "https://media.tenor.com/TYK7e4xICxQAAAAj/rust-ferris.gif",
+    // "https://www.rust-lang.org/static/images/ferris.gif",
+    // "https://media1.tenor.com/m/fjvtUHEyzjoAAAAC/shake-no.gif",
+    // "https://media.tenor.com/Uv_G-mhR-poAAAAi/mori-calliope-hololive.gif",
+  ],
+  //
+  // "background.style": {
+  // "opacity": 0.1,
+  // "content": "''",
+  // "pointer-events": "none",
+  // "position": "absolute",
+  // "width": "100%",
+  // "height": "100%",
+  // "z-index": "99999",
+  // "background-repeat": "no-repeat",
+  // "background-size": "cover",
+  // },
+  "background.style": {
+    "background-position": "100% 100%",
+    "background-size": "auto",
+    "opacity": 0.1
+  },
+  /////////////////////////////////////////////////////////////////
+  // verilog/systemverilog/vhdl/hdl
+  "verilog.linting.linter": "verilator",
+  "verilog.linting.iverilog.runAtFileLocation": true,
+  "arduino.useArduinoCli": true,
+  "arduino.additionalUrls": [],
+  "arduino.logLevel": "info",
+  "arduino.enableUSBDetection": true,
+  "arduino.disableTestingOpen": false,
+  "arduino.skipHeaderProvider": false,
+  "explorer.confirmDelete": false,
+  // "C_Cpp.default.browse.path": [
+  //   "${workspaceFolder}",
+  //   "${config:arduino.path}/tools",
+  //   "${config:arduino.path}/libraries",
+  //   "${config:arduino.path}/tools",
+  //   "${env:USERPROFILE}/Documents/Arduino/libraries"
+  // ],
+  /////////////////////////////////////////////////////////////////
+  // c/cpp/arduino
+  "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4}",
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  /////////////////////////////////////////////////////////////////
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  /////////////////////////////////////////////////////////////////
+  "workbench.editorAssociations": {
+    "*.xls": "default",
+    "{git,gitlens}:/**/*.{md,csv,svg}": "default"
+  },
+  "workbench.editor.splitInGroupLayout": "vertical",
+  /////////////////////////////////////////////////////////////////
+}
